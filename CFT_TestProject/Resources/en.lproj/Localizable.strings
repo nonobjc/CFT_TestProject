@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  CFT_TestProject
+
+  Created by Alexander on 17/11/2018.
+  Copyright © 2018 Alexander. All rights reserved.
+*/
+
+// MARK: - ImageEditor
+IMAGE_EDITOR__IMAGE_BUTTON_VIEW_TITLE = "Choose Image";
+IMAGE_EDITOR__IMAGE_ALERT_TITLE = "Get image from:";
+IMAGE_EDITOR__IMAGE_ALERT_LIBRARY_CASE = "Photo Library";
+IMAGE_EDITOR__IMAGE_ALERT_CAMERA_CASE = "Camera";
+IMAGE_EDITOR__IMAGE_ALERT_DOWNLOAD_CASE = "Download";
+IMAGE_EDITOR__CANCEL_TEXT = "Cancel";
+IMAGE_EDITOR__ALERT_ERROR_TITLE = "Error";
+IMAGE_EDITOR__ALERT_DOWNLOAD_ERROR_MESSAGE = "Image downloading is failed";
+IMAGE_EDITOR__OK_TEXT = "OK";
+IMAGE_EDITOR__DOWNLOAD_ALERT_TITLE = "Enter image link:";
+IMAGE_EDITOR__DOWNLOAD_TEXT = "Download";
+IMAGE_EDITOR__DONWLOAD_ALERT_TEXT_FIELD_PLACEHOLDER = "Image link";
+IMAGE_EDITOR__INVALID_URL_ERROR_MESSAGE = "Link is invalid";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_MAIN_IMAGE_CASE = "Use to filter";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_SAVE_CASE = "Save";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_DELETE_CASE = "Delete";
+IMAGE_EDITOR__FILTER_IMAGE_ERROR_MESSAGE = "Image filtering was not finished!";
+IMAGE_EDITOR__IMAGE_SAVED_ALERT_TITLE = "Image was saved successfully";
+
+// MARK: - ImageEditorTableViewCell
+IMAGE_EDITOR_TABLE_VIEW_CELL__FILTER_LABEL = "Filter:";
+
+// MARK: - ImageFilter
+IMAGE_FILTER__ROTATE = "Rotate ⟳";
+IMAGE_FILTER__GREYSCALE = "Greyscale";
+IMAGE_FILTER__MIRROR_IMAGE = "Mirror image";

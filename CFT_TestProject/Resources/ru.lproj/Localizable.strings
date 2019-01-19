@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  CFT_TestProject
+
+  Created by Alexander on 17/11/2018.
+  Copyright © 2018 Alexander. All rights reserved.
+*/
+
+// MARK: - ImageEditor
+IMAGE_EDITOR__IMAGE_BUTTON_VIEW_TITLE = "Выберите изображение";
+IMAGE_EDITOR__IMAGE_ALERT_TITLE = "Выбрать изображение из:";
+IMAGE_EDITOR__IMAGE_ALERT_LIBRARY_CASE = "Фотографии";
+IMAGE_EDITOR__IMAGE_ALERT_CAMERA_CASE = "Камера";
+IMAGE_EDITOR__IMAGE_ALERT_DOWNLOAD_CASE = "Загрузить";
+IMAGE_EDITOR__CANCEL_TEXT = "Отмена";
+IMAGE_EDITOR__ALERT_ERROR_TITLE = "Ошибка";
+IMAGE_EDITOR__ALERT_DOWNLOAD_ERROR_MESSAGE = "Загрузка картинки была безуспешной";
+IMAGE_EDITOR__OK_TEXT = "ОК";
+IMAGE_EDITOR__DOWNLOAD_ALERT_TITLE = "Введите ссылку на изображение:";
+IMAGE_EDITOR__DOWNLOAD_TEXT = "Загрузить";
+IMAGE_EDITOR__DONWLOAD_ALERT_TEXT_FIELD_PLACEHOLDER = "Ссылка на изображение";
+IMAGE_EDITOR__INVALID_URL_ERROR_MESSAGE = "Ссылка недействительна";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_MAIN_IMAGE_CASE = "Выставить для изменения";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_SAVE_CASE = "Сохранить";
+IMAGE_EDITOR__CELL_PRESSED_ALERT_DELETE_CASE = "Удалить";
+IMAGE_EDITOR__FILTER_IMAGE_ERROR_MESSAGE = "Изображение еще не обработано!";
+IMAGE_EDITOR__IMAGE_SAVED_ALERT_TITLE = "Изображение успешно сохранено";
+
+// MARK: - ImageEditorTableViewCell
+IMAGE_EDITOR_TABLE_VIEW_CELL__FILTER_LABEL = "Фильтр:";
+
+// MARK: - ImageFilter
+IMAGE_FILTER__ROTATE = "Повернуть ⟳";
+IMAGE_FILTER__GREYSCALE = "Черно-белое";
+IMAGE_FILTER__MIRROR_IMAGE = "Зеркально";

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageButtonView" customModule="CFT_TestProject" customModuleProvider="target">
+            <connections>
+                <outlet property="chooseImageButton" destination="lre-ph-iqW" id="kZL-QI-dM4"/>
+                <outlet property="imageView" destination="Q8K-eT-eav" id="KlF-qw-zwd"/>
+                <outlet property="progressLabel" destination="aV9-cg-PPy" id="BcH-Wd-3Pv"/>
+                <outlet property="progressView" destination="tv8-Kt-SZB" id="sgO-jy-W6u"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="238" height="227"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q8K-eT-eav">
+                    <rect key="frame" x="0.0" y="0.0" width="238" height="227"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lre-ph-iqW">
+                    <rect key="frame" x="69.5" y="98.5" width="99" height="30"/>
+                    <state key="normal" title="Choose Image"/>
+                    <connections>
+                        <action selector="chooseImageButtonPressed:" destination="-1" eventType="touchUpInside" id="0pf-D2-19w"/>
+                    </connections>
+                </button>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tv8-Kt-SZB">
+                    <rect key="frame" x="20" y="148.5" width="198" height="2.5"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aV9-cg-PPy">
+                    <rect key="frame" x="62" y="103.5" width="114" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tv8-Kt-SZB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Kd-xT-TKF"/>
+                <constraint firstItem="Q8K-eT-eav" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DhH-rj-hlj"/>
+                <constraint firstItem="tv8-Kt-SZB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="K7h-ei-47C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Q8K-eT-eav" secondAttribute="trailing" id="KJx-Su-v4y"/>
+                <constraint firstItem="aV9-cg-PPy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="KwS-Pv-Jmx"/>
+                <constraint firstItem="Q8K-eT-eav" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZK6-6b-ol6"/>
+                <constraint firstItem="lre-ph-iqW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cl3-Vm-5V3"/>
+                <constraint firstItem="tv8-Kt-SZB" firstAttribute="top" secondItem="lre-ph-iqW" secondAttribute="bottom" constant="20" id="fNh-z0-gdD"/>
+                <constraint firstItem="aV9-cg-PPy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hQB-mD-142"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Q8K-eT-eav" secondAttribute="bottom" id="rsH-uj-y8v"/>
+                <constraint firstItem="lre-ph-iqW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wep-VW-Dor"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="28.800000000000001" y="231.63418290854574"/>
+        </view>
+    </objects>
+</document>
